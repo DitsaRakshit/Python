@@ -1,0 +1,6 @@
+nested = (10,11,12, (1,2,3), (4,5,6), (7,8,9), 10,45,56,12,2,6,7,8,9,10,11,12,3,5,8)
+print(nested[4])
+print(nested[3][2])
+print(nested.count(10))
+print(nested.count(6))
+print(nested.index(9))
